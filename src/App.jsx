@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" Component={HomePage} />
         <Route path="/about-us" Component={AboutUsPage} />
-        <Route path="/our-packages" Component={PackagesPage} />
+        <Route path="/tour-packages" Component={PackagesPage} />
         <Route path="/gallery" Component={GalleryPage} />
         <Route path="/contact-us" Component={ContactUsPage} />
       </Routes>
