@@ -94,6 +94,41 @@ const HomePage = () => {
           />
         </div>
       </section>
+      <section>
+        <Title
+          title="Why us?"
+          description="Why Travel with Africa wizzy Safari"
+        />
+        <div className="flex flex-wrap items-center justify-center gap-5 lg:max-w-[80vw] sm:max-w-[90vw] w-full mx-auto ">
+          <WhyUsCard
+            path="./images/CarOutlined.svg"
+            description="100+ tours around Rwanda"
+          />
+          <WhyUsCard
+            path="./images/CheckCircleOutlined.svg"
+            description="100% Trusted travel agency"
+          />
+          <WhyUsCard
+            path="./images/ContactsOutlined.svg"
+            description="10 years of travel experience"
+          />
+          <WhyUsCard
+            path="./images/LikeOutlined.svg"
+            description="90% of travelers are happy"
+          />
+        </div>
+      </section>
+      <section>
+        <Title
+          title="Our Traveler Say?"
+          description="What our clients say about us"
+        />
+        <div className="flex flex-wrap items-center justify-center gap-5 lg:max-w-[80vw] sm:max-w-[90vw] w-full mx-auto mb-40">
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+        </div>
+      </section>
     </div>
   );
 };
