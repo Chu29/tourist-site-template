@@ -66,6 +66,34 @@ const HomePage = () => {
           />
         </div>
       </section>
+      <section>
+        <Title
+          title="Popular Destinations"
+          description="Select Our Best Popular Destinations"
+        />
+        <div className="flex flex-wrap items-center justify-center gap-5 lg:max-w-[80vw] sm:max-w-[90vw] w-full mx-auto">
+          <DestinationCard
+            path="./images/img-dst-1.png"
+            title="Kigali"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit."
+          />
+          <DestinationCard
+            path="./images/img-dst-2.png"
+            title="Huye"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit."
+          />
+          <DestinationCard
+            path="./images/img-dst-3.png"
+            title="Rubavu"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit."
+          />
+          <DestinationCard
+            path="./images/img-dst-2.png"
+            title="Musanze"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit."
+          />
+        </div>
+      </section>
     </div>
   );
 };
