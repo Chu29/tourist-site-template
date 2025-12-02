@@ -129,6 +129,9 @@ const HomePage = () => {
           <TestimonialCard />
         </div>
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
