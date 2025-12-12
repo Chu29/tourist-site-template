@@ -72,6 +72,21 @@ const PackagesPage = () => {
             title="Lake Kivu trip"
             description="A trip to Lake Kivu can be a truly unique and memorable experience."
           />
+          <PackageCard
+            path="./images/img-pkg-1.png"
+            title="Akagera National Park"
+            description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
+          />
+          <PackageCard
+            path="./images/img-pkg-2.png"
+            title="Bisoke Hike"
+            description="The Bisoke hike is a popular mountain trek in Rwanda, located in the Volcanoes National Park. It is one of the most challenging hikes in the park."
+          />
+          <PackageCard
+            path="./images/img-pkg-3.png"
+            title="Lake Kivu trip"
+            description="A trip to Lake Kivu can be a truly unique and memorable experience."
+          />
         </div>
       </section>
       <div className="flex justify-between lg:max-w-[70vw] sm:max-w-[90vw] w-full mx-auto mb-5">

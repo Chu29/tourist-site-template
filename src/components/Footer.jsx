@@ -4,7 +4,7 @@ import { Logo, SocialMediaIcons } from "./Header";
 const Footer = () => {
   return (
     <footer className="bg-[#304F47] text-white">
-      <div className="flex flex-col items-center justify-center gap-5 lg:max-w-[80vw] sm:max-w-[90vw] w-full mx-auto">
+      <div className="flex flex-col items-center justify-between gap-5 max-w-[90vw] w-full mx-auto">
         <div className="flex flex-wrap justify-between w-full p-5">
           <div className="flex flex-col items-start gap-10 ">
             <h1 className="text-[40px] font-bold">
@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] ">
+          <div className="w-[35%] ">
             <div className="mb-20">
               <div className="flex gap-40 mb-5">
                 <Logo />

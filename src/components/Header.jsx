@@ -13,7 +13,7 @@ export const Logo = () => {
 
 export const Contact = () => {
   return (
-    <div className="flex items-center gap-10 text-white text-[15px]">
+    <div className="flex items-center gap-5 text-white text-[15px]">
       <span className="flex gap-1">
         <img src="./images/phone-icon.svg" alt="" />
         +250 784 688 641
@@ -29,20 +29,36 @@ export const Contact = () => {
 export const SocialMediaIcons = () => {
   return (
     <div className="flex gap-2">
-      <img src="./images/facebook-icon.svg" alt="facebook" />
-      <img src="./images/twitter-icon.svg" alt="twitter" />
-      <img src="./images/linkedin-icon.svg" alt="linkedin" />
-      <img src="./images/instagram-icon.svg" alt="instagram" />
+      <img
+        className="block max-w-[30px] w-full"
+        src="./images/facebook-icon.svg"
+        alt="facebook"
+      />
+      <img
+        className="block max-w-[30px] w-full"
+        src="./images/twitter-icon.svg"
+        alt="twitter"
+      />
+      <img
+        className="block max-w-[30px] w-full"
+        src="./images/linkedin-icon.svg"
+        alt="linkedin"
+      />
+      <img
+        className="block max-w-[30px] w-full"
+        src="./images/instagram-icon.svg"
+        alt="instagram"
+      />
     </div>
   );
 };
 
 export const NavBar = () => {
   return (
-    <div className="flex items-center justify-around">
-      <div className="flex items-center gap-5">
+    <div className="flex items-center justify-between max-w-[90vw] mx-auto">
+      <div className="flex  items-center gap-5">
         <Logo />
-        <div className="flex items-start max-w-[500px] w-full gap-5 text-[#000000B2] ">
+        <nav className="flex items-start max-w-[500px] w-full gap-5 text-[#000000B2] ">
           <NavLink
             to="/"
             className={({ isActive, isPending }) =>
@@ -103,26 +119,29 @@ export const NavBar = () => {
           >
             Contact us
           </NavLink>
-        </div>
+        </nav>
       </div>
-      <Button className="bg-[#C7923E] text-white rounded-lg px-6 py[11px] border border-[#304F47] w-40 h-[50px]">
+      <div className="flex gap-5">
+        <img className="fill-white" src="./images/search.svg" alt="" />
+        <Button className="bg-[#C7923E] text-white rounded-lg px-6 py[11px] border border-[#304F47] w-40 h-[50px]">
         Sign In
       </Button>
+      </div>
     </div>
   );
 };
 
-const Header = () => {
+const Header = ({className}) => {
   return (
-    <>
-      <div className="bg-[#304F47] flex justify-around p-5">
+    <div className={className}>
+      <div className="bg-[#304F47] flex flex-wrap justify-around p-5 ">
         <Contact />
         <SocialMediaIcons />
       </div>
       <div>
         <NavBar />
       </div>
-    </>
+    </div>
   );
 };
 

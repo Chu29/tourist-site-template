@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import CallToAction from "../components/CallToAction";
 import DestinationCard from "../components/DestinationCard";
 import Footer from "../components/Footer";
@@ -11,12 +12,12 @@ import WhyUsCard from "../components/WhyUsCard";
 const HomePage = () => {
   return (
     <div>
-      <Header />
+      <Header className="sticky top-0 bg-white" />
       <Hero className="bg-[url('./images/hero-bg.jpg')] bg-center bg-cover h-screen w-full bg-no-repeat flex flex-col gap-15">
-        <div className="mt-[25vh] ml-[5%]  w-full mx-auto">
+        <div className="max-w-[90vw] mt-[25vh] ml-[5%]  w-full mx-auto">
           <h1 className="text-7xl text-white flex flex-col gap-2 font-bold">
             Experience the beauty <br /> of Rwanda with us{" "}
-            <span className="text-xl font-extralight ">
+            <span className="text-xl font-extralight">
               Discover the Land of a Thousand Hills
             </span>
           </h1>
@@ -27,7 +28,44 @@ const HomePage = () => {
         </div>
         {/* <div className="absolute inset-0 bg-black opacity-30 h-screen"></div> */}
       </Hero>
-      <CallToAction />
+      <CallToAction className="flex flex-wrap items-center justify-evenly bg-[#304F47] max-w-[75vw] mx-auto rounded-lg p-5 mt-[-50px] mb-[50px]">
+        <div className="flex flex-wrap justify-center gap-5">
+          <span className="flex items-center bg-white px-5  rounded-lg h-12">
+            <input
+              type="text"
+              placeholder="Search activities or Destinations"
+              className="max-w-[300px] w-full outline-0"
+            />
+            <img src="./images/search.svg" alt="" />
+          </span>
+          <div className="flex gap-5 text-[#9A9AB0]">
+            <p className="flex flex-col items-start justify-center text-[12px]">
+              Guests
+              <span className="flex items-center gap-2 text-[18px] text-white">
+                2 Adult
+                <img src="./images/chevron-bottom.svg" alt="" />
+              </span>
+            </p>
+            <p className="flex flex-col items-start justify-center text-[12px]">
+              Date
+              <span className="flex items-center gap-2 text-[18px] text-white">
+                12-13 April 2021
+                <img src="./images/chevron-bottom.svg" alt="" />
+              </span>
+            </p>
+            <p className="flex flex-col items-start justify-center text-[12px]">
+              Package
+              <span className="flex items-center gap-2 text-[18px] text-white">
+                All
+                <img src="./images/chevron-bottom.svg" alt="" />
+              </span>
+            </p>
+          </div>
+        </div>
+        <Button className="bg-[#C7923E] text-white rounded-lg px-6 py[11px] border-0 w-40 h-[50px]">
+          Book Now
+        </Button>
+      </CallToAction>
       <section>
         <Title
           title="Choose your Package"
