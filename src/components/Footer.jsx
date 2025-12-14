@@ -9,7 +9,8 @@ const Footer = () => {
           {/* Left Column: Contact + Newsletter */}
           <div className="flex flex-col gap-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-              If you have any question, <br className="hidden sm:block" /> Let us help you!
+              If you have any question, <br className="hidden sm:block" /> Let
+              us help you!
             </h1>
 
             <div className="space-y-4 font-light text-lg">
@@ -26,7 +27,9 @@ const Footer = () => {
 
             {/* Newsletter Subscription */}
             <div className="max-w-md">
-              <h2 className="font-bold text-xl mb-4">Subscribe to our newsletter</h2>
+              <h2 className="font-bold text-xl mb-4">
+                Subscribe to our newsletter
+              </h2>
               <form className="flex flex-col sm:flex-row gap-3">
                 <input
                   type="email"
@@ -57,21 +60,43 @@ const Footer = () => {
             {/* Footer Navigation Links */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-12 text-lg">
               <ul className="flex flex-col gap-4">
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Home</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Testimonials</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Destinations</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Sign In</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Home
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Testimonials
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Destinations
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Sign In
+                </li>
               </ul>
               <ul className="flex flex-col gap-4">
-                <li className="hover:text-[#C7923E] cursor-pointer transition">About Us</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Packages</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Events</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Gallery</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  About Us
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Packages
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Events
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Gallery
+                </li>
               </ul>
               <ul className="flex flex-col gap-4">
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Our Team</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Blog</li>
-                <li className="hover:text-[#C7923E] cursor-pointer transition">Contact Us</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Our Team
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Blog
+                </li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">
+                  Contact Us
+                </li>
               </ul>
             </div>
           </div>
@@ -79,7 +104,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-white/20 text-center text-sm">
-          Copyright © 2025 Africa Wizzy Safari. All rights reserved.
+          Copyright © 2025 Africa Wizzy Safari.
         </div>
       </div>
     </footer>

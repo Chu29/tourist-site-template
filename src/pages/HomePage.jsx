@@ -16,14 +16,15 @@ const HomePage = () => {
       <Header className="sticky top-0 z-50 bg-white shadow-md" />
 
       {/* Hero Section */}
-      <section className="relative bg-[url('./images/hero-bg.jpg')] bg-center bg-cover bg-no-repeat h-screen flex flex-col justify-between">
+      <section className="relative bg-[url('hero-bg.jpg')] bg-center bg-cover bg-no-repeat h-screen flex flex-col justify-between">
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40" />
 
         {/* Headline - centered on all screens */}
-        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex-1 flex flex-col items-center justify-center text-center">
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex-1 flex flex-col items-start justify-center text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-bold leading-tight">
-            Experience the beauty <br className="hidden sm:block" /> of Rwanda with us
+            Experience the beauty <br className="hidden sm:block" /> of Rwanda
+            with us
             <span className="block text-lg sm:text-xl md:text-2xl font-extralight mt-4">
               Discover the Land of a Thousand Hills
             </span>
@@ -32,8 +33,16 @@ const HomePage = () => {
 
         {/* Carousel arrows - hidden on very small screens, centered container */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pb-8 hidden sm:flex justify-between">
-          <img src="./images/left-back-button.svg" alt="Previous" className="w-10 h-10 sm:w-12 sm:h-12 cursor-pointer" />
-          <img src="./images/right-back-button.svg" alt="Next" className="w-10 h-10 sm:w-12 sm:h-12 cursor-pointer" />
+          <img
+            src="./images/left-back-button.svg"
+            alt="Previous"
+            className="w-10 h-10 sm:w-12 sm:h-12 cursor-pointer"
+          />
+          <img
+            src="./images/right-back-button.svg"
+            alt="Next"
+            className="w-10 h-10 sm:w-12 sm:h-12 cursor-pointer"
+          />
         </div>
       </section>
 
@@ -49,7 +58,11 @@ const HomePage = () => {
                   placeholder="Search activities or Destinations"
                   className="w-full outline-none text-gray-800"
                 />
-                <img src="./images/search.svg" alt="Search" className="w-5 h-5 ml-2" />
+                <img
+                  src="./images/search.svg"
+                  alt="Search"
+                  className="w-5 h-5 ml-2"
+                />
               </div>
 
               {/* Guests, Date, Package - stack on mobile */}
@@ -58,21 +71,33 @@ const HomePage = () => {
                   <span className="text-xs">Guests</span>
                   <span className="flex items-center justify-center sm:justify-start gap-2 text-white text-lg">
                     2 Adult
-                    <img src="./images/chevron-bottom.svg" alt="" className="w-4 h-4" />
+                    <img
+                      src="./images/chevron-bottom.svg"
+                      alt=""
+                      className="w-4 h-4"
+                    />
                   </span>
                 </div>
                 <div className="flex flex-col text-center sm:text-left">
                   <span className="text-xs">Date</span>
                   <span className="flex items-center justify-center sm:justify-start gap-2 text-white text-lg">
                     12-13 April 2021
-                    <img src="./images/chevron-bottom.svg" alt="" className="w-4 h-4" />
+                    <img
+                      src="./images/chevron-bottom.svg"
+                      alt=""
+                      className="w-4 h-4"
+                    />
                   </span>
                 </div>
                 <div className="flex flex-col text-center sm:text-left">
                   <span className="text-xs">Package</span>
                   <span className="flex items-center justify-center sm:justify-start gap-2 text-white text-lg">
                     All
-                    <img src="./images/chevron-bottom.svg" alt="" className="w-4 h-4" />
+                    <img
+                      src="./images/chevron-bottom.svg"
+                      alt=""
+                      className="w-4 h-4"
+                    />
                   </span>
                 </div>
               </div>
@@ -130,7 +155,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-100">
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-7xl text-center">
           <Title
             title="Popular Destinations"
@@ -192,7 +217,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-100">
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-7xl text-center">
           <Title
             title="Our Traveler Say?"

@@ -1,5 +1,5 @@
 import ContactCard from "../components/ContactCard";
-import ContactFrom from "../components/ContactFrom"; // Note: probably meant ContactForm
+import ContactFrom from "../components/ContactFrom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -9,7 +9,7 @@ const ContactUsPage = () => {
       <Header className="sticky top-0 z-50 bg-white shadow-md" />
 
       {/* Hero Section */}
-      <section className="relative bg-[url('./images/hero-bg.jpg')] bg-center bg-cover h-[70vh] md:h-[80vh] flex items-center justify-center text-center">
+      <section className="relative bg-[url('hero-bg.jpg')] bg-center bg-cover h-[70vh] md:h-[80vh] flex items-center justify-center text-center">
         <div className="absolute inset-0 bg-black/40" />
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">

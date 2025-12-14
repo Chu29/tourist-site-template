@@ -11,27 +11,27 @@ const AboutUsPage = () => {
       <section className="relative h-screen w-full flex items-center overflow-hidden">
         {/* Background Image - right-aligned on large screens, full on mobile */}
         <img
-          src="./images/about-hero.jpg"
+          src="about-hero.jpg"
           alt="Gorilla Trekking in Rwanda"
-          className="absolute top-0 right-0 w-full lg:w-[65%] h-full object-cover z-[-1]"
+          className="absolute top-0 right-0 w-full lg:w-[45%] h-full object-cover z-1"
         />
 
         {/* Text Content - left side */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-black font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white lg:text-black font-bold leading-tight">
               We are dedicated to <br className="hidden sm:block" /> providing
               the best <br className="hidden md:block" /> travel experience.
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-800 font-extralight mt-6">
+            <p className="text-lg sm:text-xl md:text-2xl text-white lg:text-gray-800 font-extralight mt-6">
               Discover the Land of a Thousand Hills
             </p>
           </div>
         </div>
       </section>
 
-      <section className="relative z-20 -mt-32 lg:-mt-40 mb-20 px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-w-4xl ml-auto mr-4 lg:mr-20">
+      <section className="relative z-20 -mt-32 lg:-mt-70 mb-40 px-4 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-w-4xl ml-auto mr-4 lg:mr-[700px]">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-[#9A9AB0]">
               <div className="flex flex-col text-left">

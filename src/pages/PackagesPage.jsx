@@ -10,7 +10,7 @@ const PackagesPage = () => {
       <Header className="sticky top-0 z-50 bg-white shadow-md" />
 
       {/* Hero Section */}
-      <section className="relative bg-[url('./images/hero-bg.jpg')] bg-center bg-cover h-[70vh] md:h-[80vh] flex items-center justify-center text-center">
+      <section className="relative bg-[url('hero-bg.jpg')] bg-center bg-cover h-[70vh] md:h-[80vh] flex items-center justify-center text-center">
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40" />
 
@@ -105,10 +105,18 @@ const PackagesPage = () => {
         {/* Pagination Arrows */}
         <div className="container mx-auto max-w-7xl flex justify-between mt-16 px-4">
           <Button className="bg-white hover:bg-gray-100 border border-[#C7923E] text-[#C7923E] rounded-lg p-4 shadow-md transition">
-            <img src="./images/angle-arrow-left.png" alt="Previous" className="w-6 h-6" />
+            <img
+              src="./images/angle-arrow-left.png"
+              alt="Previous"
+              className="w-6 h-6"
+            />
           </Button>
           <Button className="bg-[#C7923E] hover:bg-[#b07c2e] text-white rounded-lg p-4 shadow-md transition">
-            <img src="./images/angle-arrow-right.png" alt="Next" className="w-6 h-6" />
+            <img
+              src="./images/angle-arrow-right.png"
+              alt="Next"
+              className="w-6 h-6"
+            />
           </Button>
         </div>
       </section>
