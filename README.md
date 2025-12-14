@@ -1,16 +1,57 @@
-# React + Vite
+# Tourist Site Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## App
 
-Currently, two official plugins are available:
+![App](./public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
 
-## React Compiler
+A pixel perfect mplementation of all 5 pages on this  tourist site template figma design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Template Link: https://www.figma.com/file/1NEcrfj0ZHVVJe0Swzw6kn/tourism-site-(Community)?node-id=0%3A1&t=jiUC2lzFw2vORhFK-1 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- ReactJS + Vite
+- tailwindcss
+- npm
+- vercel
+
+### Prerequisites
+
+Knowledge about JS, ReactJS, npm, vite, and tailwindcss
+
+- Component
+- arrays
+- Functions
+- useState
+
+## Clone Project
+
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with `git@github.com:Chu29/tourist-site-template.git` using your terminal or command line.
+- Change to the project directory by entering: `cd tourist-site-template` in the terminal.
+
+## Command line steps
+
+- $ git clone `git@github.com:Chu29/tourist-site-template.git`
+- $ `cd tourist-site-template`
+- $ `git checkout feature/tourist-site`
+
+## Start App
+
+- run `npm install`
+- run `npm run dev` in your command line
+
+## Live Site
+
+[Link](https://tourist-site-template-ten.vercel.app/)
+
+## Author
+
+**Chu Abuemkeze M.K**
+
+- GitHub: [@Chu29](https://github.com/Chu29)
+- Twitter: [@chu_codes](https://x.com/chu_codes)
+- LinkedIn: [Chu Abuemkeze M.K](https://www.linkedin.com/in/chu-abuemkeze/)
