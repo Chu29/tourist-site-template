@@ -1,14 +1,10 @@
 # Tourist Site Template
 
-## App
-
-![App](./public/preview.png)
-
 ## About
 
 A pixel perfect mplementation of all 5 pages on this  tourist site template figma design.
 
-Template Link: https://www.figma.com/file/1NEcrfj0ZHVVJe0Swzw6kn/tourism-site-(Community)?node-id=0%3A1&t=jiUC2lzFw2vORhFK-1 
+[Template Link](https://www.figma.com/file/1NEcrfj0ZHVVJe0Swzw6kn/tourism-site-(Community)?node-id=0%3A1&t=jiUC2lzFw2vORhFK-1) 
 
 
 ## Built With
