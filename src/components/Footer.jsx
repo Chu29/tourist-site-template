@@ -3,75 +3,84 @@ import { Logo, SocialMediaIcons } from "./Header";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#304F47] text-white">
-      <div className="flex flex-col items-center justify-between gap-5 max-w-[90vw] w-full mx-auto">
-        <div className="flex flex-wrap justify-between w-full p-5">
-          <div className="flex flex-col items-start gap-10 ">
-            <h1 className="text-[40px] font-bold">
-              If you have any question, <br /> Let us help you!
+    <footer className="bg-[#304F47] text-white py-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+          {/* Left Column: Contact + Newsletter */}
+          <div className="flex flex-col gap-8">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+              If you have any question, <br className="hidden sm:block" /> Let us help you!
             </h1>
-            <p className="flex flex-col font-light">
-              If you have any questions or would like <br /> to book a tour with
-              us, please don't hesitate <br /> to contact us.{" "}
-              <span>
-                Phone: +250 788 123 456 <br />
-                Email: info@rwandatourism.com <br />
-                Address: Kigali, Rwanda
-              </span>
-            </p>
-            <div className="">
-              <h1 className="font-bold">Subscribe to our newspaper</h1>
-              <div className="flex gap-3">
-                <div className="flex items-center bg-white px-5  rounded-lg h-12">
-                  <input
-                    type="text"
-                    placeholder="Input your email here"
-                    className="max-w-[300px] outline-0 text-black"
-                  />
-                </div>
-                <Button className="bg-[#C7923E] py-2 px-4 rounded-lg">
-                  <img
-                    className="max-w-5 w-full"
-                    src="./images/send.svg"
-                    alt=""
-                  />
-                </Button>
+
+            <div className="space-y-4 font-light text-lg">
+              <p>
+                If you have any questions or would like to book a tour with us,
+                please don't hesitate to contact us.
+              </p>
+              <div className="space-y-2">
+                <p>Phone: +250 788 123 456</p>
+                <p>Email: info@rwandatourism.com</p>
+                <p>Address: Kigali, Rwanda</p>
               </div>
             </div>
+
+            {/* Newsletter Subscription */}
+            <div className="max-w-md">
+              <h2 className="font-bold text-xl mb-4">Subscribe to our newsletter</h2>
+              <form className="flex flex-col sm:flex-row gap-3">
+                <input
+                  type="email"
+                  placeholder="Input your email here"
+                  className="flex-1 px-5 py-3 rounded-lg text-black bg-white outline-none"
+                />
+                <Button className="bg-[#C7923E] hover:bg-[#b07c2e] px-6 py-3 rounded-lg flex items-center justify-center">
+                  <img src="./images/send.svg" alt="Send" className="w-6 h-6" />
+                </Button>
+              </form>
+            </div>
           </div>
-          <div className="w-[35%] ">
-            <div className="mb-20">
-              <div className="flex gap-40 mb-5">
+
+          {/* Right Column: Logo, Description & Links */}
+          <div className="flex flex-col gap-10">
+            {/* Logo + Social + Description */}
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col items-start sm:flex-row sm:items-center justify-between gap-6">
                 <Logo />
                 <SocialMediaIcons />
               </div>
-              <p>
+              <p className="text-gray-300">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
             </div>
-            <div className="flex flex-wrap gap-40 font-extralight text-[16px]">
-              <ul className="flex flex-col gap-3">
-                <li>Home</li>
-                <li>Testimonials</li>
-                <li>Destinations</li>
-                <li>SignIn</li>
+
+            {/* Footer Navigation Links */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-12 text-lg">
+              <ul className="flex flex-col gap-4">
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Home</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Testimonials</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Destinations</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Sign In</li>
               </ul>
-              <ul className="flex flex-col gap-3">
-                <li>About Us</li>
-                <li>Packages</li>
-                <li>Events</li>
-                <li>Gallery</li>
+              <ul className="flex flex-col gap-4">
+                <li className="hover:text-[#C7923E] cursor-pointer transition">About Us</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Packages</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Events</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Gallery</li>
               </ul>
-              <ul className="flex flex-col gap-3">
-                <li>Our Team</li>
-                <li>Blog</li>
-                <li>Contact Us</li>
+              <ul className="flex flex-col gap-4">
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Our Team</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Blog</li>
+                <li className="hover:text-[#C7923E] cursor-pointer transition">Contact Us</li>
               </ul>
             </div>
           </div>
         </div>
-        <div>Copyright Africa Wizzy Safari 2022</div>
+
+        {/* Copyright */}
+        <div className="mt-12 pt-8 border-t border-white/20 text-center text-sm">
+          Copyright © 2025 Africa Wizzy Safari. All rights reserved.
+        </div>
       </div>
     </footer>
   );
