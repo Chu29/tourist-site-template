@@ -42,7 +42,7 @@ Knowledge about JS, ReactJS, npm, vite, and tailwindcss
 
 ## Live Site
 
-[Link](https://tourist-site-template-ten.vercel.app/)
+[tourist-site-template](https://tourist-site-template-ten.vercel.app/)
 
 ## Author
 
