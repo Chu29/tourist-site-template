@@ -73,7 +73,7 @@ export const NavBar = () => {
       </div>
 
       {/* Right side: Search + Sign In (Desktop) */}
-      <div className="hidden md:flex items-center gap-6">
+      <div className="hidden lg:flex items-center gap-6">
         <img src="./images/search.svg" alt="Search" className="w-6 h-6 cursor-pointer" />
         <Button className="bg-[#C7923E] hover:bg-[#b07c2e] text-white rounded-lg px-6 py-3">
           Sign In

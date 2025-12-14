@@ -32,34 +32,128 @@ const GalleryPage = () => {
         </Button>
       </div>
 
-      {/* True Masonry Gallery using CSS Columns (Pinterest-style, like your screenshot) */}
       <section className="container mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-4 space-y-4">
-          {/* All 25 images in a single column flow - varied heights create natural masonry */}
-          <img src="./images/img-1.png" alt="Gorilla in forest" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-2.png" alt="Giraffe" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-3.png" alt="Mountain view" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-4.png" alt="Tourists on boat" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-5.png" alt="Safari lodge" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-6.png" alt="Canopy walk" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-7.png" alt="Kayaking" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-8.png" alt="Lake view" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-9.png" alt="Church" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-10.png" alt="Cycling" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-11.png" alt="Sunset" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-12.png" alt="Elephant" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-13.png" alt="Dancing" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-14.png" alt="Traditional hut" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-15.png" alt="Group tour" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-17.png" alt="Wildlife" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-18.png" alt="Landscape" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-19.png" alt="People" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-20.png" alt="Big landscape" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-21.png" alt="Activity" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-22.png" alt="Animal" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-23.png" alt="Culture" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-24.png" alt="Safari vehicle" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
-          <img src="./images/img-25.png" alt="Group photo" className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover" />
+          <img
+            src="./images/img-1.png"
+            alt="Gorilla in forest"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-2.png"
+            alt="Giraffe"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-3.png"
+            alt="Mountain view"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-4.png"
+            alt="Tourists on boat"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-5.png"
+            alt="Safari lodge"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-6.png"
+            alt="Canopy walk"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-7.png"
+            alt="Kayaking"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-8.png"
+            alt="Lake view"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-9.png"
+            alt="Church"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-10.png"
+            alt="Cycling"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-11.png"
+            alt="Sunset"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-12.png"
+            alt="Elephant"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-13.png"
+            alt="Dancing"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-14.png"
+            alt="Traditional hut"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-15.png"
+            alt="Group tour"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-17.png"
+            alt="Wildlife"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-18.png"
+            alt="Landscape"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-19.png"
+            alt="People"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-20.png"
+            alt="Big landscape"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-21.png"
+            alt="Activity"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-22.png"
+            alt="Animal"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-23.png"
+            alt="Culture"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-24.png"
+            alt="Safari vehicle"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
+          <img
+            src="./images/img-25.png"
+            alt="Group photo"
+            className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow object-cover"
+          />
         </div>
       </section>
 

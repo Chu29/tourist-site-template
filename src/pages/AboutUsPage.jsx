@@ -7,7 +7,7 @@ const AboutUsPage = () => {
     <div className="min-h-screen bg-gray-50">
       <Header className="sticky top-0 z-50 bg-white shadow-md" />
 
-      {/* Hero Section - No overlay, text black, image right-aligned on desktop */}
+      {/* Hero Section - image right-aligned on desktop */}
       <section className="relative h-screen w-full flex items-center overflow-hidden">
         {/* Background Image - right-aligned on large screens, full on mobile */}
         <img
@@ -15,6 +15,7 @@ const AboutUsPage = () => {
           alt="Gorilla Trekking in Rwanda"
           className="absolute top-0 right-0 w-full lg:w-[45%] h-full object-cover z-1"
         />
+        <div className="absolute top-0 right-0 bg-black/40 z-1 w-full lg:w-[45%] h-full" />
 
         {/* Text Content - left side */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,8 +31,8 @@ const AboutUsPage = () => {
         </div>
       </section>
 
-      <section className="relative z-20 -mt-32 lg:-mt-70 mb-40 px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-w-4xl ml-auto mr-4 lg:mr-[700px]">
+      <section className="relative z-20 -mt-32 lg:-mt-70 mb-80 px-4 sm:px-6 lg:px-8">
+        <div className=" absolute bg-white rounded-xl shadow-2xl p-6 sm:p-4 max-w-4xl ml-auto mr-4 left-[22%]">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-[#9A9AB0]">
               <div className="flex flex-col text-left">
