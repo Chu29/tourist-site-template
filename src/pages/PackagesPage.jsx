@@ -10,7 +10,7 @@ const PackagesPage = () => {
       <Header className="sticky top-0 z-50 bg-white shadow-md" />
 
       {/* Hero Section */}
-      <section className="relative bg-[url('hero-bg.jpg')] bg-center bg-cover h-[70vh] md:h-[80vh] flex items-center justify-center text-center">
+      <section className="relative bg-[url('/hero-bg.jpg')] bg-center bg-cover h-[70vh] md:h-[80vh] flex items-center justify-center text-center">
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40" />
 

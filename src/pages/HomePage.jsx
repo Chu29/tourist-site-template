@@ -1,9 +1,7 @@
 import Button from "../components/Button";
-import CallToAction from "../components/CallToAction";
 import DestinationCard from "../components/DestinationCard";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
 import PackageCard from "../components/PackageCard";
 import TestimonialCard from "../components/TestimonialCard";
 import Title from "../components/Title";
@@ -16,7 +14,7 @@ const HomePage = () => {
       <Header className="sticky top-0 z-50 bg-white shadow-md" />
 
       {/* Hero Section */}
-      <section className="relative bg-[url('hero-bg.jpg')] bg-center bg-cover bg-no-repeat h-screen flex flex-col justify-between">
+      <section className="relative bg-[url('/hero-bg.jpg')] bg-center bg-cover bg-no-repeat h-screen flex flex-col justify-between">
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40" />
 
